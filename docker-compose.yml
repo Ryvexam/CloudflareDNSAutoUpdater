@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ip-updater:
+    build: .
+    container_name: ip-dns-updater
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+    environment:
+      - CF_API_TOKEN=${CF_API_TOKEN}
+    networks:
+      - ip-updater-net
+
+networks:
+  ip-updater-net:
+    driver: bridge

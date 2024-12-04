@@ -1,0 +1,40 @@
+{
+    "domains": [
+        {
+            "name": "ryvexam.fr",
+            "records": [
+                {
+                    "name": "@",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "emulator",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "mc",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "www",
+                    "type": "A",
+                    "proxied": true
+                }
+            ]
+        },
+        {
+            "name": "ryveweb.fr",
+            "records": [
+                {
+                    "name": "@",
+                    "type": "A",
+                    "proxied": true
+                }
+            ]
+        }
+    ],
+    "update_interval": 300
+}
