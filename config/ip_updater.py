@@ -114,7 +114,7 @@ def check_and_update():
 
         # Load configuration
         try:
-            with open('config/config.json', 'r') as f:
+            with open('config.json', 'r') as f:
                 config = json.load(f)
         except Exception as e:
             log_message(f"Error loading config: {e}")
