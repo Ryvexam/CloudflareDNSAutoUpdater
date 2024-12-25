@@ -22,6 +22,26 @@
                     "name": "www",
                     "type": "A",
                     "proxied": true
+                },
+                {
+                    "name": "proxy",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "portainer",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "home-assistant",
+                    "type": "A",
+                    "proxied": true
+                },
+                {
+                    "name": "dolibarr",
+                    "type": "A",
+                    "proxied": true
                 }
             ]
         },
